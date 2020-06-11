@@ -6,6 +6,10 @@ PC2 -> steering angle
 PC3 -> Yaw rate
 PD6  ->  Right motor PWM       PD6 OC0A
 PD5/PB3  -> left motor PWM     PD5 OC0B */
+
+/* #include<avr/io.h>  check whether this library need to be added or not, As in C it might not recognize function related to the 
+ATMEGA libraries are developed so that we can use C to code other than Assembly language*/
+
 #include"timer.h"
 #include"ADC.h"
 #include<stdlib.h>
