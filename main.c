@@ -1,4 +1,4 @@
-/*Created by : nikhil Valiveti Batch 1 Employee ID 141708
+/*Created by : nikhil Valiveti 
 PD0 -> Engine input
 PC0 -> right motor speed
 PC1 -> left motor speed
