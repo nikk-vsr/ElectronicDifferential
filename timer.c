@@ -28,7 +28,7 @@ TCCR0A|= ((1<<WGM01) | (1<<WGM00));  // fast pwm mode
 TCCR0A|= (1<< COM0A1); /* non inverting mode  // clear OC2A on compare match*/
 TCCR0A&= ~(1<<COM0A0);
 
-TCCR0A|= (1<< COM0B1); //* non inverting mode  // clear OC2A on compare match*/
+TCCR0A|= (1<< COM0B1); //* non inverting mode  // clear OC2B on compare match*/
 TCCR0A&= ~(1<<COM0B0);
 
 TCNT0=0x00;   /*Timer counter register*/
